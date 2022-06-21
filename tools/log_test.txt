@@ -1,0 +1,362 @@
+2022-06-20 15:25:31,539   INFO  Loading KITTI dataset
+2022-06-20 15:25:31,629   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 15:25:33,342   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 15:25:33,348   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 15:25:33,353   INFO  ==> Done (loaded 221/221)
+2022-06-20 15:26:58,252   INFO  Loading KITTI dataset
+2022-06-20 15:26:58,346   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 15:27:00,070   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 15:27:00,074   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 15:27:00,079   INFO  ==> Done (loaded 221/221)
+2022-06-20 15:30:19,257   INFO  Loading KITTI dataset
+2022-06-20 15:30:19,350   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 15:30:21,064   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 15:30:21,069   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 15:30:21,074   INFO  ==> Done (loaded 221/221)
+2022-06-20 15:31:52,485   INFO  Loading KITTI dataset
+2022-06-20 15:31:52,575   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 15:31:54,306   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 15:31:54,311   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 15:31:54,316   INFO  ==> Done (loaded 221/221)
+2022-06-20 15:32:09,055   INFO  Loading KITTI dataset
+2022-06-20 15:32:09,145   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 15:32:10,864   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 15:32:10,869   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 15:32:10,874   INFO  ==> Done (loaded 221/221)
+2022-06-20 16:06:27,833   INFO  Loading KITTI dataset
+2022-06-20 16:06:27,925   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 16:06:29,633   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 16:06:29,638   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 16:06:29,643   INFO  ==> Done (loaded 221/221)
+2022-06-20 16:07:16,744   INFO  Loading KITTI dataset
+2022-06-20 16:07:16,839   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 16:07:18,566   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 16:07:18,570   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 16:07:18,576   INFO  ==> Done (loaded 221/221)
+2022-06-20 16:14:46,140   INFO  Loading KITTI dataset
+2022-06-20 16:14:46,231   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 16:14:47,955   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 16:14:47,958   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 16:14:47,964   INFO  ==> Done (loaded 221/221)
+2022-06-20 16:16:54,439   INFO  Loading KITTI dataset
+2022-06-20 16:16:54,533   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 16:16:56,242   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 16:16:56,246   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 16:16:56,251   INFO  ==> Done (loaded 221/221)
+2022-06-20 16:17:17,867   INFO  Loading KITTI dataset
+2022-06-20 16:17:17,958   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 16:17:19,674   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 16:17:19,677   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 16:17:19,683   INFO  ==> Done (loaded 221/221)
+2022-06-20 16:19:45,832   INFO  Loading KITTI dataset
+2022-06-20 16:19:45,925   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 16:19:47,636   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 16:19:47,640   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 16:19:47,646   INFO  ==> Done (loaded 221/221)
+2022-06-20 16:53:24,288   INFO  Loading KITTI dataset
+2022-06-20 16:53:24,381   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 16:53:26,115   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 16:53:26,119   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 16:53:26,125   INFO  ==> Done (loaded 221/221)
+2022-06-20 16:53:26,125   INFO  *************** EPOCH 1 EVALUATION *****************
+2022-06-20 19:29:58,530   INFO  Loading KITTI dataset
+2022-06-20 19:29:58,623   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 19:30:00,365   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 19:30:00,369   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 19:30:00,375   INFO  ==> Done (loaded 221/221)
+2022-06-20 19:30:00,375   INFO  *************** EPOCH 1 EVALUATION *****************
+2022-06-20 19:31:53,309   INFO  Loading KITTI dataset
+2022-06-20 19:31:53,399   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 19:32:22,296   INFO  Loading KITTI dataset
+2022-06-20 19:32:22,389   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 19:32:24,154   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 19:32:24,158   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 19:32:24,164   INFO  ==> Done (loaded 221/221)
+2022-06-20 19:32:24,168   INFO  *************** EPOCH 1 EVALUATION *****************
+2022-06-20 19:33:15,292   INFO  *************** Performance of EPOCH 1 *****************
+2022-06-20 19:33:15,292   INFO  Generate label finished(sec_per_example: 0.0136 second).
+2022-06-20 19:33:15,292   INFO  recall_roi_0.3: 0.000000
+2022-06-20 19:33:15,292   INFO  recall_rcnn_0.3: 0.926074
+2022-06-20 19:33:15,292   INFO  recall_roi_0.5: 0.000000
+2022-06-20 19:33:15,292   INFO  recall_rcnn_0.5: 0.880169
+2022-06-20 19:33:15,292   INFO  recall_roi_0.7: 0.000000
+2022-06-20 19:33:15,292   INFO  recall_rcnn_0.7: 0.664313
+2022-06-20 19:33:15,294   INFO  Average predicted number of objects(3769 samples): 7.687
+2022-06-20 19:33:31,540   INFO  Car AP@0.70, 0.70, 0.70:
+bbox AP:96.4030, 90.0862, 89.3820
+bev  AP:90.4163, 88.7434, 86.6143
+3d   AP:89.3112, 79.4659, 78.3269
+aos  AP:96.37, 90.01, 89.20
+Car AP_R40@0.70, 0.70, 0.70:
+bbox AP:98.0128, 95.1820, 92.6145
+bev  AP:94.8784, 91.1610, 88.6644
+3d   AP:91.7230, 83.2874, 80.2534
+aos  AP:97.98, 95.07, 92.40
+Car AP@0.70, 0.50, 0.50:
+bbox AP:96.4030, 90.0862, 89.3820
+bev  AP:96.5303, 90.2251, 89.7018
+3d   AP:96.4738, 90.1879, 89.6110
+aos  AP:96.37, 90.01, 89.20
+Car AP_R40@0.70, 0.50, 0.50:
+bbox AP:98.0128, 95.1820, 92.6145
+bev  AP:98.1293, 95.5815, 94.9611
+3d   AP:98.0969, 95.4976, 94.7347
+aos  AP:97.98, 95.07, 92.40
+Pedestrian AP@0.50, 0.50, 0.50:
+bbox AP:73.5752, 71.8321, 67.8966
+bev  AP:66.2745, 61.0719, 56.9982
+3d   AP:60.3650, 57.8843, 51.9455
+aos  AP:69.07, 66.60, 62.59
+Pedestrian AP_R40@0.50, 0.50, 0.50:
+bbox AP:75.4902, 72.6708, 67.8582
+bev  AP:66.2715, 61.5732, 56.4815
+3d   AP:60.9646, 56.5446, 51.4041
+aos  AP:70.22, 66.65, 61.83
+Pedestrian AP@0.50, 0.25, 0.25:
+bbox AP:73.5752, 71.8321, 67.8966
+bev  AP:80.6535, 77.9509, 73.0005
+3d   AP:80.6190, 77.8531, 72.8696
+aos  AP:69.07, 66.60, 62.59
+Pedestrian AP_R40@0.50, 0.25, 0.25:
+bbox AP:75.4902, 72.6708, 67.8582
+bev  AP:81.9157, 79.3619, 75.0714
+3d   AP:81.8787, 79.2165, 74.8729
+aos  AP:70.22, 66.65, 61.83
+Cyclist AP@0.50, 0.50, 0.50:
+bbox AP:96.3029, 81.9173, 76.7828
+bev  AP:86.7757, 73.7434, 70.7183
+3d   AP:85.7584, 71.8367, 65.9273
+aos  AP:96.19, 81.67, 76.58
+Cyclist AP_R40@0.50, 0.50, 0.50:
+bbox AP:96.9469, 82.3797, 78.2709
+bev  AP:91.8290, 74.9931, 70.6712
+3d   AP:90.5567, 72.1092, 67.6162
+aos  AP:96.84, 82.15, 78.04
+Cyclist AP@0.50, 0.25, 0.25:
+bbox AP:96.3029, 81.9173, 76.7828
+bev  AP:95.3413, 79.4711, 74.4637
+3d   AP:95.3413, 79.4711, 74.4637
+aos  AP:96.19, 81.67, 76.58
+Cyclist AP_R40@0.50, 0.25, 0.25:
+bbox AP:96.9469, 82.3797, 78.2709
+bev  AP:96.1415, 79.9517, 75.7618
+3d   AP:96.1415, 79.9517, 75.7618
+aos  AP:96.84, 82.15, 78.04
+
+2022-06-20 19:33:31,544   INFO  Result is save to /home/hw2/zjy/IA-SSD/output/kitti_models/IA-SSD/eval
+2022-06-20 19:33:31,544   INFO  ****************Evaluation done.*****************
+2022-06-20 19:40:58,581   INFO  Loading KITTI dataset
+2022-06-20 19:40:58,674   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 19:41:00,432   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 19:41:00,442   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 19:41:00,448   INFO  ==> Done (loaded 221/221)
+2022-06-20 19:41:13,269   INFO  Loading KITTI dataset
+2022-06-20 19:41:13,360   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 19:41:15,111   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 19:41:15,115   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 19:41:15,121   INFO  ==> Done (loaded 221/221)
+2022-06-20 19:41:22,554   INFO  Loading KITTI dataset
+2022-06-20 19:41:22,647   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 19:41:24,421   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 19:41:24,426   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 19:41:24,431   INFO  ==> Done (loaded 221/221)
+2022-06-20 19:42:09,176   INFO  Loading KITTI dataset
+2022-06-20 19:42:09,270   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 19:42:11,026   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 19:42:11,030   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 19:42:11,035   INFO  ==> Done (loaded 221/221)
+2022-06-20 19:54:05,201   INFO  Loading KITTI dataset
+2022-06-20 19:54:05,291   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 19:54:07,041   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 19:54:07,045   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 19:54:07,050   INFO  ==> Done (loaded 221/221)
+2022-06-20 20:00:06,930   INFO  Loading KITTI dataset
+2022-06-20 20:00:07,023   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 20:00:08,773   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 20:00:08,778   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 20:00:08,784   INFO  ==> Done (loaded 221/221)
+2022-06-20 20:00:48,500   INFO  Loading KITTI dataset
+2022-06-20 20:00:48,590   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 20:00:50,344   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 20:00:50,348   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 20:00:50,354   INFO  ==> Done (loaded 221/221)
+2022-06-20 20:01:03,606   INFO  Loading KITTI dataset
+2022-06-20 20:01:03,696   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 20:01:05,457   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 20:01:05,460   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 20:01:05,465   INFO  ==> Done (loaded 221/221)
+2022-06-20 20:03:57,397   INFO  Loading KITTI dataset
+2022-06-20 20:03:57,490   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 20:03:59,245   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 20:03:59,249   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 20:03:59,258   INFO  ==> Done (loaded 221/221)
+2022-06-20 20:04:50,240   INFO  Loading KITTI dataset
+2022-06-20 20:04:50,333   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 20:04:52,103   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 20:04:52,107   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 20:04:52,113   INFO  ==> Done (loaded 221/221)
+2022-06-20 20:05:17,077   INFO  Loading KITTI dataset
+2022-06-20 20:05:17,168   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 20:05:18,938   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 20:05:18,943   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 20:05:18,951   INFO  ==> Done (loaded 221/221)
+2022-06-20 20:09:47,089   INFO  Loading KITTI dataset
+2022-06-20 20:09:47,183   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 20:09:48,940   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 20:09:48,944   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 20:09:48,949   INFO  ==> Done (loaded 221/221)
+2022-06-20 20:10:49,489   INFO  Loading KITTI dataset
+2022-06-20 20:10:49,582   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 20:10:51,341   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 20:10:51,346   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 20:10:51,351   INFO  ==> Done (loaded 221/221)
+2022-06-20 20:27:56,193   INFO  Loading KITTI dataset
+2022-06-20 20:27:56,283   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 20:27:58,053   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 20:27:58,058   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 20:27:58,064   INFO  ==> Done (loaded 221/221)
+2022-06-20 20:29:53,373   INFO  Loading KITTI dataset
+2022-06-20 20:29:53,466   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 20:29:55,230   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 20:29:55,234   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 20:29:55,240   INFO  ==> Done (loaded 221/221)
+2022-06-20 20:54:11,417   INFO  Loading KITTI dataset
+2022-06-20 20:54:11,507   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 20:54:13,282   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 20:54:13,287   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 20:54:13,293   INFO  ==> Done (loaded 221/221)
+2022-06-20 21:07:15,708   INFO  Loading KITTI dataset
+2022-06-20 21:07:15,804   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 21:07:17,580   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 21:07:17,583   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 21:07:17,589   INFO  ==> Done (loaded 221/221)
+2022-06-20 21:07:32,999   INFO  Loading KITTI dataset
+2022-06-20 21:07:33,091   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 21:07:34,842   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 21:07:34,846   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 21:07:34,852   INFO  ==> Done (loaded 221/221)
+2022-06-20 21:47:58,637   INFO  Loading KITTI dataset
+2022-06-20 21:47:58,730   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 21:48:00,484   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 21:48:00,489   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 21:48:00,494   INFO  ==> Done (loaded 221/221)
+2022-06-20 21:49:04,809   INFO  Loading KITTI dataset
+2022-06-20 21:49:04,899   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 21:49:06,649   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 21:49:06,654   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 21:49:06,659   INFO  ==> Done (loaded 221/221)
+2022-06-20 21:53:57,634   INFO  Loading KITTI dataset
+2022-06-20 21:53:57,728   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 21:53:59,499   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 21:53:59,503   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 21:53:59,509   INFO  ==> Done (loaded 221/221)
+2022-06-20 21:54:54,076   INFO  Loading KITTI dataset
+2022-06-20 21:54:54,169   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 21:54:55,921   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 21:54:55,926   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 21:54:55,931   INFO  ==> Done (loaded 221/221)
+2022-06-20 21:55:31,034   INFO  Loading KITTI dataset
+2022-06-20 21:55:31,124   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 21:55:32,877   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 21:55:32,882   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 21:55:32,890   INFO  ==> Done (loaded 221/221)
+2022-06-20 21:55:57,043   INFO  Loading KITTI dataset
+2022-06-20 21:55:57,138   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 21:55:58,906   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 21:55:58,911   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 21:55:58,916   INFO  ==> Done (loaded 221/221)
+2022-06-20 21:56:39,246   INFO  Loading KITTI dataset
+2022-06-20 21:56:39,337   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 21:56:41,083   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 21:56:41,088   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 21:56:41,093   INFO  ==> Done (loaded 221/221)
+2022-06-20 21:58:03,294   INFO  Loading KITTI dataset
+2022-06-20 21:58:03,384   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 21:58:05,145   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 21:58:05,148   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 21:58:05,154   INFO  ==> Done (loaded 221/221)
+2022-06-20 22:04:13,331   INFO  Loading KITTI dataset
+2022-06-20 22:04:13,421   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 22:04:15,167   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 22:04:15,172   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 22:04:15,178   INFO  ==> Done (loaded 221/221)
+2022-06-20 22:05:23,062   INFO  Loading KITTI dataset
+2022-06-20 22:05:23,152   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 22:05:24,924   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 22:05:24,929   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 22:05:24,934   INFO  ==> Done (loaded 221/221)
+2022-06-20 22:18:35,591   INFO  Loading KITTI dataset
+2022-06-20 22:18:35,687   INFO  Total samples for KITTI dataset: 3769
+2022-06-20 22:18:37,432   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-20 22:18:37,435   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-20 22:18:37,441   INFO  ==> Done (loaded 221/221)
+2022-06-21 10:27:18,998   INFO  Loading KITTI dataset
+2022-06-21 10:27:19,093   INFO  Total samples for KITTI dataset: 3769
+2022-06-21 10:27:20,778   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-21 10:27:20,782   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-21 10:27:20,788   INFO  ==> Done (loaded 221/221)
+2022-06-21 10:30:16,089   INFO  Loading KITTI dataset
+2022-06-21 10:30:16,179   INFO  Total samples for KITTI dataset: 3769
+2022-06-21 10:30:17,866   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-21 10:30:17,869   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-21 10:30:17,875   INFO  ==> Done (loaded 221/221)
+2022-06-21 10:42:18,857   INFO  Loading KITTI dataset
+2022-06-21 10:42:18,947   INFO  Total samples for KITTI dataset: 3769
+2022-06-21 10:42:20,649   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-21 10:42:20,652   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-21 10:42:20,657   INFO  ==> Done (loaded 221/221)
+2022-06-21 10:50:39,254   INFO  Loading KITTI dataset
+2022-06-21 10:50:39,343   INFO  Total samples for KITTI dataset: 3769
+2022-06-21 10:50:41,025   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-21 10:50:41,028   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-21 10:50:41,033   INFO  ==> Done (loaded 221/221)
+2022-06-21 10:50:52,407   INFO  Loading KITTI dataset
+2022-06-21 10:50:52,498   INFO  Total samples for KITTI dataset: 3769
+2022-06-21 10:50:54,188   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-21 10:50:54,193   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-21 10:50:54,198   INFO  ==> Done (loaded 221/221)
+2022-06-21 10:52:14,718   INFO  Loading KITTI dataset
+2022-06-21 10:52:14,809   INFO  Total samples for KITTI dataset: 3769
+2022-06-21 10:52:16,563   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-21 10:52:16,567   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-21 10:52:16,576   INFO  ==> Done (loaded 221/221)
+2022-06-21 10:52:35,791   INFO  Loading KITTI dataset
+2022-06-21 10:52:35,884   INFO  Total samples for KITTI dataset: 3769
+2022-06-21 10:52:37,637   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-21 10:52:37,642   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-21 10:52:37,648   INFO  ==> Done (loaded 221/221)
+2022-06-21 11:04:05,598   INFO  Loading KITTI dataset
+2022-06-21 11:04:05,691   INFO  Total samples for KITTI dataset: 3769
+2022-06-21 11:04:07,447   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-21 11:04:07,452   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-21 11:04:07,458   INFO  ==> Done (loaded 221/221)
+2022-06-21 12:08:45,851   INFO  Loading KITTI dataset
+2022-06-21 12:08:45,941   INFO  Total samples for KITTI dataset: 3769
+2022-06-21 12:08:47,693   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-21 12:08:47,697   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-21 12:08:47,703   INFO  ==> Done (loaded 221/221)
+2022-06-21 12:31:06,529   INFO  Loading KITTI dataset
+2022-06-21 12:31:06,620   INFO  Total samples for KITTI dataset: 3769
+2022-06-21 12:31:08,377   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-21 12:31:08,381   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-21 12:31:08,391   INFO  ==> Done (loaded 221/221)
+2022-06-21 12:31:16,770   INFO  Loading KITTI dataset
+2022-06-21 12:31:16,861   INFO  Total samples for KITTI dataset: 3769
+2022-06-21 12:31:18,620   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-21 12:31:18,625   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-21 12:31:18,631   INFO  ==> Done (loaded 221/221)
+2022-06-21 12:32:22,255   INFO  Loading KITTI dataset
+2022-06-21 12:32:22,348   INFO  Total samples for KITTI dataset: 3769
+2022-06-21 12:32:24,100   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-21 12:32:24,105   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-21 12:32:24,110   INFO  ==> Done (loaded 221/221)
+2022-06-21 12:34:35,426   INFO  Loading KITTI dataset
+2022-06-21 12:34:35,517   INFO  Total samples for KITTI dataset: 3769
+2022-06-21 12:34:37,266   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-21 12:34:37,271   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-21 12:34:37,276   INFO  ==> Done (loaded 221/221)
+2022-06-21 13:39:05,873   INFO  Loading KITTI dataset
+2022-06-21 13:39:05,965   INFO  Total samples for KITTI dataset: 3769
+2022-06-21 13:39:07,725   INFO  ==> Loading parameters from checkpoint IA-SSD.pth to GPU
+2022-06-21 13:39:07,729   INFO  ==> Checkpoint trained from version: pcdet+0.5.2+3d6c1ef
+2022-06-21 13:39:07,735   INFO  ==> Done (loaded 221/221)
