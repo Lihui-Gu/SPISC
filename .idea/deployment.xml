@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="hw2@10.12.11.61:22" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
+    <option name="confirmBeforeUploading" value="false" />
+    <serverData>
+      <paths name="hw2@10.12.11.61:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/hw2/zjy/SPISC" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="hw2@10.12.11.61:22 (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/hw2/zjy/SPISC" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

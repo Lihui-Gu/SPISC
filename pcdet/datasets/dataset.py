@@ -21,7 +21,6 @@ class DatasetTemplate(torch_data.Dataset):
         self.logger = logger
         if self.dataset_cfg is None or class_names is None:
             return
-        print(self.dataset_cfg.POINT_CLOUD_RANGE)
         self.point_cloud_range = np.array(self.dataset_cfg.POINT_CLOUD_RANGE, dtype=np.float32)
         self.point_feature_encoder = PointFeatureEncoder(
             self.dataset_cfg.POINT_FEATURE_ENCODING,
