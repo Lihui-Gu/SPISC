@@ -36,6 +36,7 @@ class DemoDataset(DatasetTemplate):
         self.root_path = root_path
         self.ext = ext
         data_file_list = glob.glob(str(root_path / f'*{self.ext}')) if self.root_path.is_dir() else [self.root_path]
+
         data_file_list.sort()
         self.sample_file_list = data_file_list
 
@@ -58,25 +59,38 @@ class DemoDataset(DatasetTemplate):
         data_dict = self.prepare_data(data_dict=input_dict)
         return data_dict
 
+def time_synchronized():
+    torch.cuda.synchronize() if torch.cuda.is_available() else None
+    return time.time()
 
+def parse_config():
+    parser = argparse.ArgumentParser(description='arg parser')
+    parser.add_argument('--cfg_file', type=str, default='cfgs/kitti_models/IA-SSD.yaml',
+                        help='specify the config for demo')
+    parser.add_argument('--data_path', type=str, default='demo_data',
+                        help='specify the point cloud data file or directory')
+    parser.add_argument('--ckpt', type=str, default='IA-SSD.pth', help='specify the pretrained model')
+    parser.add_argument('--ext', type=str, default='.bin', help='specify the extension of your point cloud data file')
+
+    args = parser.parse_args()
+
+    cfg_from_yaml_file(args.cfg_file, cfg)
+
+    return args, cfg
 
 
 def main():
-    cfg_file = 'cfgs/kitti_models/IA-SSD.yaml'
-    data_path = '../data/kitti/testing/velodyne/000003.bin'
-    ckpt = 'IA-SSD.pth'
-    ext = '.bin'
-    cfg_from_yaml_file(cfg_file, cfg)
-
+    args, cfg = parse_config()
     logger = common_utils.create_logger()
     logger.info('-----------------Quick Demo of OpenPCDet-------------------------')
     demo_dataset = DemoDataset(
         dataset_cfg=cfg.DATA_CONFIG, class_names=cfg.CLASS_NAMES, training=False,
-        root_path=Path(data_path), ext=ext, logger=logger
+        root_path=Path(args.data_path), ext=args.ext, logger=logger
     )
     logger.info(f'Total number of samples: \t{len(demo_dataset)}')
+
     model = build_network(model_cfg=cfg.MODEL, num_class=len(cfg.CLASS_NAMES), dataset=demo_dataset)
-    model.load_params_from_file(filename=ckpt, logger=logger, to_cpu=True)
+    model.load_params_from_file(filename=args.ckpt, logger=logger, to_cpu=True)
     model.cuda()
     model.eval()
     with torch.no_grad():
@@ -85,19 +99,29 @@ def main():
         vis.get_render_option().point_size = 1.0
         vis.get_render_option().background_color = np.zeros(3)
         for idx, data_dict in enumerate(demo_dataset):
+            t1 = time_synchronized()
             logger.info(f'Visualized sample index: \t{idx + 1}')
             data_dict = demo_dataset.collate_batch([data_dict])
-            print(data_dict['points'][:, 0].sum())
             load_data_to_gpu(data_dict)
             pred_dicts, _ = model.forward(data_dict)
+            t2 = time_synchronized()
+            fps0 = 1/(t2-t1)
             V.draw_scenes(
                 points=data_dict['points'][:, 1:], ref_boxes=pred_dicts[0]['pred_boxes'],
                 ref_scores=pred_dicts[0]['pred_scores'], ref_labels=pred_dicts[0]['pred_labels'], vis=vis
             )
             if not OPEN3D_FLAG:
                 mlab.show(stop=True)
+            t3 = time_synchronized()
             logger.info(data_dict['points'].shape)
+            fps = 1/(t3-t1)
+            #time.sleep(2)
+            logger.info(fps)
+            logger.info(fps0)
+
+
     logger.info('Demo done.')
+
 
 if __name__ == '__main__':
     main()

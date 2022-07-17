@@ -5,97 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df9a0954-3015-4a14-acae-1f9b2512f40c" name="变更" comment="demo生成">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/ImageSets/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/ImageSets/train.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/ImageSets/val.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/kitti_infos_train.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/kitti_infos_val.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/training/calib/000000.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/training/calib/000001.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/training/calib/000002.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/training/calib/000003.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/training/calib/000004.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/training/calib/000005.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/training/image_2/000000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/training/image_2/000001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/training/image_2/000002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/training/image_2/000003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/training/image_2/000004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/training/image_2/000005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/training/image_3/000000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/training/image_3/000001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/training/image_3/000002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/training/image_3/000003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/training/image_3/000004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/training/image_3/000005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/training/label_2/000000.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/training/label_2/000001.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/training/label_2/000002.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/training/label_2/000003.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/training/label_2/000004.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/training/label_2/000005.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kitti/training/velodyne/000000.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/painting/painting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/painting/pcdet_utils/calibration_kitti.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/glh98.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/inference_utils/inference_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/ImageSets/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/ImageSets/train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/ImageSets/val.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/kitti_infos_train.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/kitti_infos_val.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/training/calib/000000.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/training/calib/000001.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/training/calib/000002.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/training/calib/000003.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/training/calib/000004.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/training/calib/000005.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/training/image_2/000000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/training/image_2/000001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/training/image_2/000002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/training/image_2/000003.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/training/image_2/000004.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/training/image_2/000005.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/training/image_3/000000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/training/image_3/000001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/training/image_3/000002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/training/image_3/000003.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/training/image_3/000004.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/training/image_3/000005.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/training/label_2/000000.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/training/label_2/000001.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/training/label_2/000002.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/training/label_2/000003.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/training/label_2/000004.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/training/label_2/000005.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detector/data/kitti/training/velodyne/000000.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/painting/painting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/painting/pcdet_utils/calibration_kitti.py" beforeDir="false" afterPath="$PROJECT_DIR$/pcdet/datasets/kitti/calibration_kitti.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pcdet/datasets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pcdet/datasets/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pcdet/datasets/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/pcdet/datasets/dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/cfgs/kitti_models/CaDDN.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/cfgs/kitti_models/IA-SSD.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/tools/cfgs/kitti_models/IA-SSD.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/cfgs/kitti_models/PartA2.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/cfgs/kitti_models/PartA2_free.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/cfgs/kitti_models/pointpillar.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/cfgs/kitti_models/pointpillar_newaugs.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/cfgs/kitti_models/pointpillar_pyramid_aug.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/cfgs/kitti_models/pointrcnn.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/cfgs/kitti_models/pointrcnn_iou.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/cfgs/kitti_models/pv_rcnn.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/cfgs/kitti_models/second_iou.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/cfgs/kitti_models/second_multihead.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/cfgs/kitti_models/voxel_rcnn_car.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/cfgs/nuscenes_models/cbgs_dyn_pp_centerpoint.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/cfgs/nuscenes_models/cbgs_pp_multihead.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/cfgs/nuscenes_models/cbgs_second_multihead.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/cfgs/nuscenes_models/cbgs_voxel0075_res3d_centerpoint.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/cfgs/nuscenes_models/cbgs_voxel01_res3d_centerpoint.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/demo1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pcdet/datasets/kitti/kitti_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/pcdet/datasets/kitti/kitti_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tools/glh_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/glh_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/scripts/slurm_test_mgpu.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/scripts/slurm_test_single.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/scripts/slurm_train.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/scripts/torch_train.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/zjy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/glh_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/glh_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/painting/painting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/painting/pcdet_utils/calibration_kitti.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,18 +41,24 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "true",
     "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
     "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "last_opened_file_path": "C:/Users/glh98/Documents/GitHub/SPISC",
+    "last_opened_file_path": "C:/Users/glh98/Documents/GitHub/CLRNet",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "trusted.hosts"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.painting (1)">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\glh98\Documents\GitHub\SPISC\pcdet\datasets\kitti" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.demo">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="SPISC" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,6 +73,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="_utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SPISC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/JetBrains/PyCharm2022.1/remote_sources/541629201/-2061527798/torch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/JetBrains/PyCharm2022.1/remote_sources/541629201/-2061527798/torch/_utils.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,17 +144,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kitti_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="glh_train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SPISC" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pcdet/datasets/kitti" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pcdet/datasets/kitti/kitti_dataset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/glh_train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,6 +170,9 @@
       <module name="SPISC" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools/painting" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -231,35 +188,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="painting1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SPISC" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="/" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="&lt;57af79db-1d15-420f-9470-64a76f84772a&gt;/home/hw2/zjy/pointpainting/painting/painting1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.painting (1)" />
         <item itemvalue="Python.demo" />
-        <item itemvalue="Python.kitti_dataset" />
         <item itemvalue="Python.glh_test" />
-        <item itemvalue="Python.painting1" />
+        <item itemvalue="Python._utils" />
+        <item itemvalue="Python.painting (1)" />
+        <item itemvalue="Python.glh_train" />
       </list>
     </recent_temporary>
   </component>
@@ -278,6 +213,13 @@
       <workItem from="1655778236367" duration="9855000" />
       <workItem from="1655793824209" duration="21000" />
       <workItem from="1655793926203" duration="12155000" />
+      <workItem from="1655902531463" duration="5105000" />
+      <workItem from="1655951498159" duration="16967000" />
+      <workItem from="1656066743549" duration="3093000" />
+      <workItem from="1656070660335" duration="11000" />
+      <workItem from="1656230316426" duration="4784000" />
+      <workItem from="1656339208528" duration="37000" />
+      <workItem from="1658041789107" duration="1670000" />
     </task>
     <task id="LOCAL-00001" summary="demo生成">
       <created>1655895797995</created>
@@ -315,12 +257,18 @@
           <line>122</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pcdet/config.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SPISC$demo.coverage" NAME="demo 覆盖结果" MODIFIED="1658042902927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/SPISC$painting.coverage" NAME="painting 覆盖结果" MODIFIED="1655448003609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
     <SUITE FILE_PATH="coverage/SPISC$painting1.coverage" NAME="painting1 覆盖结果" MODIFIED="1655793728806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
-    <SUITE FILE_PATH="coverage/SPISC$glh_test.coverage" NAME="glh_test 覆盖结果" MODIFIED="1655795413989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/SPISC$glh_test.coverage" NAME="glh_test 覆盖结果" MODIFIED="1655956248984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
   </component>
 </project>

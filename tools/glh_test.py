@@ -19,18 +19,20 @@ warnings.filterwarnings('ignore', category=DeprecationWarning)
 
 def run_model_single(model, test_loader, eval_output_dir, logger, epoch_id):
     # 加载训练完成的模型
+    """
     ckpt = "IA-SSD.pth"
     model.load_params_from_file(filename=ckpt, logger=logger, to_cpu=False)
     model.cuda()
     # ['frame_id', 'calib', 'gt_boxes', 'points', 'use_lead_xyz', 'image_shape', 'batch_size']
     model.eval()
+    """
     for i, batch_dict in enumerate(test_loader):
         load_data_to_gpu(batch_dict)
+        """
         pred_dicts, ret_dict = model(batch_dict)
         if i == 2:
             break
-
-
+        """
 def main():
     # 加载模型配置文件
     cfg_file = "cfgs/kitti_models/IA-SSD.yaml"

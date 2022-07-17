@@ -1,14 +1,14 @@
 import copy
 import pickle
-
+import torch
+from torchvision import transforms
 import numpy as np
 from skimage import io
-
+from PIL import Image
 from . import kitti_utils
 from ...ops.roiaware_pool3d import roiaware_pool3d_utils
 from ...utils import box_utils, calibration_kitti, common_utils, object3d_kitti
 from ..dataset import DatasetTemplate
-
 
 class KittiDataset(DatasetTemplate):
     def __init__(self, dataset_cfg, class_names, training=True, root_path=None, logger=None):
@@ -28,7 +28,6 @@ class KittiDataset(DatasetTemplate):
 
         split_dir = self.root_path / 'ImageSets' / (self.split + '.txt')
         self.sample_id_list = [x.strip() for x in open(split_dir).readlines()] if split_dir.exists() else None
-
         self.kitti_infos = []
         self.include_kitti_data(self.mode)
 
@@ -85,6 +84,11 @@ class KittiDataset(DatasetTemplate):
         assert img_file.exists()
         return np.array(io.imread(img_file).shape[:2], dtype=np.int32)
 
+    def get_painted_lidar(self, idx):
+        lidar_file = self.root_split_path / 'painted_lidar' / ('%s.npy' % idx)
+        assert lidar_file.exists()
+        return np.load(lidar_file)
+
     def get_label(self, idx):
         label_file = self.root_split_path / 'label_2' / ('%s.txt' % idx)
         assert label_file.exists()
@@ -107,8 +111,21 @@ class KittiDataset(DatasetTemplate):
 
     def get_calib(self, idx):
         calib_file = self.root_split_path / 'calib' / ('%s.txt' % idx)
+        print(calib_file)
         assert calib_file.exists()
         return calibration_kitti.Calibration(calib_file)
+
+    def get_calib_fromfile(self, idx):
+        calib_file = self.root_split_path + 'calib/' + ('%s.txt' % idx)
+        assert calib_file.exists()
+        calib = calibration_kitti.get_calib_from_file(calib_file)
+        calib['P2'] = np.concatenate([calib['P2'], np.array([[0., 0., 0., 1.]])], axis=0)
+        calib['P3'] = np.concatenate([calib['P3'], np.array([[0., 0., 0., 1.]])], axis=0)
+        calib['R0_rect'] = np.zeros([4, 4], dtype=calib['R0'].dtype)
+        calib['R0_rect'][3, 3] = 1.
+        calib['R0_rect'][:3, :3] = calib['R0']
+        calib['Tr_velo2cam'] = np.concatenate([calib['Tr_velo2cam'], np.array([[0., 0., 0., 1.]])], axis=0)
+        return calib
 
     def get_road_plane(self, idx):
         plane_file = self.root_split_path / 'planes' / ('%s.txt' % idx)
@@ -221,6 +238,26 @@ class KittiDataset(DatasetTemplate):
             infos = executor.map(process_single_scene, sample_id_list)
         return list(infos)
 
+
+    def cam_to_lidar(self, pointcloud, projection_mats):
+        """
+        Takes in lidar in velo coords, returns lidar points in camera coords
+
+        :param pointcloud: (n_points, 4) np.array (x,y,z,r) in velodyne coordinates
+        :return lidar_cam_coords: (n_points, 4) np.array (x,y,z,r) in camera coordinates
+        """
+
+        lidar_velo_coords = copy.deepcopy(pointcloud)
+        reflectances = copy.deepcopy(lidar_velo_coords[:, -1])  # copy reflectances column
+        lidar_velo_coords[:, -1] = 1  # for multiplying with homogeneous matrix
+        lidar_cam_coords = projection_mats['Tr_velo2cam'].dot(lidar_velo_coords.transpose())
+        lidar_cam_coords = lidar_cam_coords.transpose()
+        lidar_cam_coords[:, -1] = reflectances
+
+        return lidar_cam_coords
+
+
+
     def create_groundtruth_database(self, info_path=None, used_classes=None, split='train'):
         import torch
 
@@ -252,7 +289,7 @@ class KittiDataset(DatasetTemplate):
             for i in range(num_obj):
                 filename = '%s_%s_%d.bin' % (sample_idx, names[i], i)
                 filepath = database_save_path / filename
-                gt_points = points[point_indices[i] > 0]
+                gt_points = points[point_indices[i] > 0].astype(np.float32)
 
                 gt_points[:, :3] -= gt_boxes[i, :3]
                 with open(filepath, 'w') as f:
@@ -377,6 +414,7 @@ class KittiDataset(DatasetTemplate):
 
         sample_idx = info['point_cloud']['lidar_idx']
         img_shape = info['image']['image_shape']
+
         calib = self.get_calib(sample_idx)
         get_item_list = self.dataset_cfg.get('GET_ITEM_LIST', ['points'])
 
@@ -405,7 +443,8 @@ class KittiDataset(DatasetTemplate):
                 input_dict['road_plane'] = road_plane
 
         if "points" in get_item_list:
-            points = self.get_lidar(sample_idx)
+            points = self.get_painted_lidar(sample_idx)
+            print(points.shape)
             if self.dataset_cfg.FOV_POINTS_ONLY:
                 pts_rect = calib.lidar_to_rect(points[:, 0:3])
                 fov_flag = self.get_fov_flag(pts_rect, img_shape, calib)

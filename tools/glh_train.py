@@ -13,7 +13,6 @@ def main():
     cfg_from_yaml_file(cfg_file, cfg)
     cfg.TAG = Path(cfg_file).stem
     cfg.EXP_GROUP_PATH = '/'.join(cfg_file.split('/')[1:-1])  # remove 'cfgs' and 'xxxx.yaml'
-
     # 日志文件设置
     output_dir = cfg.ROOT_DIR / 'output' / cfg.EXP_GROUP_PATH / cfg.TAG
     ckpt_dir = output_dir / 'ckpt'
@@ -28,8 +27,6 @@ def main():
     log_config_to_file(cfg, logger=logger)
     if cfg.LOCAL_RANK == 0:
         os.system('cp %s %s' % (cfg_file, output_dir))
-
-
     # 超参数设置
     epochs = cfg.OPTIMIZATION.NUM_EPOCHS
     batch_size = cfg.OPTIMIZATION.BATCH_SIZE_PER_GPU
@@ -45,20 +42,11 @@ def main():
         dist=False,
         workers=workers,
         logger=logger,
-        training=True,
-        merge_all_iters_to_one_epoch=False,
-        total_epochs=epochs
+        training=True
     )
     model = build_network(model_cfg=cfg.MODEL, num_class=len(cfg.CLASS_NAMES), dataset=train_set)
-    model.cuda()
-    optimizer = build_optimizer(model, cfg.OPTIMIZATION)
-    model.train()
-    logger.info(model)
 
-    lr_scheduler, lr_warmup_scheduler = build_scheduler(
-        optimizer, total_iters_each_epoch=len(train_loader), total_epochs=args.epochs,
-        last_epoch=last_epoch, optim_cfg=cfg.OPTIMIZATION
-    )
+
 
 if __name__ == "__main__":
     main()
